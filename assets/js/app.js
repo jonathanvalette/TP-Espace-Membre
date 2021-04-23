@@ -16,5 +16,15 @@ import './doclinks.js';
 
 import logoPath from '../img/unnamed.jpg';
 
+import logoPath2 from '../img/pkd.jpg';
+
+import logoPath3 from '../img/cvjonathanvalette.png';
+
 let html = `<img src="${logoPath}" alt="ACME logo">`;
+
+
+let html2 = `<img src="${logoPath2}" alt="ACME logo">`;
+
+let html3 = `<a class="navbar-brand" href="${logoPath3}">`;
+
 

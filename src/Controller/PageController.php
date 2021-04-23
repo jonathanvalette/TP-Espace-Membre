@@ -19,7 +19,7 @@ class PageController extends AbstractController
     }
 
         /**
-     * @Route("/page2", name="page2")
+     * @Route("/resume", name="resume")
      */
     public function index2(): Response
     {
