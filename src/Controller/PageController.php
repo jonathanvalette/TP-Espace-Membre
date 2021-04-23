@@ -28,13 +28,4 @@ class PageController extends AbstractController
         ]);
     }
 
-        /**
-     * @Route("/page3", name="page3")
-     */
-    public function index3(): Response
-    {
-        return $this->render('page/homepage/homepage3.html.twig', [
-            'controller_name' => 'PageController',
-        ]);
-    }
 }
