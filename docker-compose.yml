@@ -1,0 +1,10 @@
+version: '3'
+ 
+services:
+    database:
+        image: postgres:13-alpine
+        environment:
+            POSTGRES_USER: main2
+            POSTGRES_PASSWORD: main2
+            POSTGRES_DB: main2
+        ports: [5432]
